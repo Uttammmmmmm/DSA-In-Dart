@@ -1,0 +1,74 @@
+// {
+//     // Use IntelliSense to learn about possible attributes.
+//     // Hover to view descriptions of existing attributes.
+//     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+//     "version": "0.2.0",
+//     "configurations": []
+// }
+
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "hello",
+            "request": "launch",
+            "mainClass": "hello",
+            "projectName": "dsa_58b2f976"
+        },
+        {
+            "type": "java",
+            "name": "Literals",
+            "request": "launch",
+            "mainClass": "Basics_Java.Literals",
+            "projectName": "dsa_58b2f976"
+        },
+        {
+            "type": "java",
+            "name": "DataTypes",
+            "request": "launch",
+            "mainClass": "Basics_Java.DataTypes",
+            "projectName": "dsa_58b2f976"
+        },
+        {
+            "name": "Run JavaScript (Node.js)",
+            "type": "node",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Run Python",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Run C++",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "lldb",
+            "miDebuggerPath": "/usr/bin/lldb",
+            "preLaunchTask": "C/C++: clang++ build active file"
+        },
+        {
+            "type": "java",
+            "name": "Run Java",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "name": "Run Dart/Flutter",
+            "request": "launch",
+            "type": "dart"
+        }
+    ]
+}
